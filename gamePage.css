@@ -1,0 +1,66 @@
+/* gamePage page */
+
+@import url(https://db.onlinewebfonts.com/c/574e5b8318e53b92bdb78209bd03fc72?family=Dynamo+W04+Bold+Condensed);
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+    background-image: url('2.svg'); /* Replace 'path_to_your_image.jpg' with your image file path */
+    background-size: cover; /* Ensures the image covers the entire background */
+      /* Additional background properties can be added as needed */
+}
+h1 {
+    margin-top: 10px;
+    color: #333;
+}
+h2{
+    margin-top: -5px;
+    color:#ffffff;
+    font-size: 60px;
+    text-shadow: -5px 5px 0px black;
+    font-family: "Dynamo W04 Bold Condensed";
+    -webkit-text-stroke: 3px #000;
+}
+
+#sentence {
+    margin-top: 30px;
+    font-size: 20px;
+}
+#options {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#option1 {
+    background-color: #3498db;
+    color: #fff;
+}
+#option2 {
+    background-color: #e74c3c;
+    color: #fff;
+}
+.button:hover {
+    filter: brightness(110%);
+}
+
+.image-container {
+    margin-top: 30px;
+    text-align: center; /* Center the child elements horizontally */
+}
+
+.centered-image {
+    max-width: 40%; /* Ensure the image doesn't exceed its container's width */
+    max-height: 40%; /* Ensure the image doesn't exceed its container's height */
+}

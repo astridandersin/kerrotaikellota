@@ -1,0 +1,85 @@
+/* gameSetup page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('2.svg'); /* Replace 'path_to_your_image.jpg' with your image file path */
+    background-size: cover; /* Ensures the image covers the entire background */
+      /* Additional background properties can be added as needed */
+    margin-top: 5%;
+}
+h1 {
+    font-size: 50px;
+    color: #000000;
+}
+form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label {
+    font-size: 18px;
+    color: #3e3e3e;
+}
+input[type="text"],
+input[type="number"],
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #000000;
+    transition: background-color 0.3s ease;
+}
+input[type="text"],
+input[type="number"] {
+    width: 250px;
+}
+input[type="text"]:focus,
+input[type="number"]:focus,
+button:focus {
+    outline: none;
+}
+input[type="text"]:hover,
+input[type="number"]:hover,
+button:hover {
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+}
+button {
+    background-color: #fff;
+    color: #363c41;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #383f45;
+    color: #fff;
+}
+
+.startButton {
+    background-image: url(vecteezy_play-button-icon_23547345-removebg-preview.png);
+    background-size: 100%;
+    font-size: 10px;
+    cursor: pointer;
+    display: inline-block;
+    width: 250px; /* Adjust width and height to create the desired size */
+    height: 250px;
+    border-radius: 100%;
+    border-style: hidden;
+    background-color: transparent; /* Transparent background */
+    line-height: 100px; /* Aligns content vertically */
+    color: #000; /* Change text color as needed */
+    /* Additional styles for hover, active state, etc. */
+    transition: background_color 0.7s ease;
+    
+    } 
+    
+    .startButton:hover{
+        background-color: #000;
+        transform: scale(1.1);
+        
+    }

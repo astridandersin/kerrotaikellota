@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Setup</title>
+  <link rel="stylesheet" href="gameSetup.css">
+</head>
+
+<body>
+  <h1>Let's set up the game!</h1>
+  <form id="gameForm" onsubmit="return false;">
+    <label for="participantNames">Participants (names separated by commas):</label><br>
+    <input type="text" placeholder= "Astrid, Emil, Otava..." id="participantNames" name="participantNames" required><br><br>
+    
+    <label for="numQuestions">How many questions would you like to have?</label><br>
+    <input type="number" id="numQuestions" name="numQuestions" min="2" required><br><br>
+    
+    <button onclick="setupGame()" class = "startButton" hidden="hidden"></button>
+  </form>
+
+  <script src="gameSetup.js" ></script>
+
+</body>
+</html>
+
+
+
+

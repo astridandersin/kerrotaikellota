@@ -1,0 +1,53 @@
+/* kerro tai kellota start page */
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+text-align: center;
+align-items: center;
+background-image: url('2.svg'); /* Replace 'path_to_your_image.jpg' with your image file path */
+background-size: cover; /* Ensures the image covers the entire background */
+      /* Additional background properties can be added as needed */
+background-repeat: no-repeat;
+margin-top: 0%;
+}
+
+
+title {
+margin-top: 580px;
+font-size: 36px;
+font-weight: bold;
+}
+
+.image-container {
+    text-align: center; /* Center the child elements horizontally */
+}
+
+.centered-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    max-height: 100%; /* Ensure the image doesn't exceed its container's height */
+}
+
+.startButton {
+background-image: url(vecteezy_play-button-icon_23547345-removebg-preview.png);
+background-size: 100%;
+font-size: 10px;
+cursor: pointer;
+display: inline-block;
+width: 250px; /* Adjust width and height to create the desired size */
+height: 250px;
+border-radius: 100%;
+border-style: hidden;
+background-color: transparent; /* Transparent background */
+line-height: 100px; /* Aligns content vertically */
+color: #000; /* Change text color as needed */
+/* Additional styles for hover, active state, etc. */
+transition: background_color 0.7s ease;
+
+} 
+
+.startButton:hover{
+    transform: scale(1.1);
+    
+}
